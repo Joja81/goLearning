@@ -1,0 +1,1 @@
+Solving problem of how many palindromes can be found in a string.
