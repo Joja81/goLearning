@@ -36,7 +36,7 @@ func main() {
 		}
 	}
 
-	sort.SliceStable(pallindromes, func(i, j int) bool {
+	sort.Slice(pallindromes, func(i, j int) bool {
 		return pallindromes[i].end < pallindromes[j].end
 	})
 
